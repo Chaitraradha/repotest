@@ -3,6 +3,7 @@
 #read num1
 #echo "enter the second value"
 #read num2
+echo "$num1 $num2"
 sum=`expr $1 + $2`
 echo "sum of two number is $sum"
 sub=`expr $1 - $2`
