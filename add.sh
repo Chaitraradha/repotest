@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "enter the first value"
-read num1
-echo "enter the second value"
-read num2
+#echo "enter the first value"
+#read num1
+#echo "enter the second value"
+#read num2
 sum=`expr $num1 + $num2`
 echo "sum of two number is $sum"
 sub=`expr $num1 - $num2`
